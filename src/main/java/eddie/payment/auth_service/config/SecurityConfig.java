@@ -16,6 +16,7 @@ public class SecurityConfig {
 				.requestMatchers("/health", "/.well-known/jwks.json").permitAll()
 				.anyRequest().authenticated()
 			);
+		System.out.println("Need to check why this is not scanned properly");
 		return http.build();
 	}
 }
