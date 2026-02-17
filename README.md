@@ -1,2 +1,2 @@
-# eddie.payment.auth_service
+# eddie.payment.authservice
 Eddie Payment System Authentication Service

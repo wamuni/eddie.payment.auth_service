@@ -24,8 +24,11 @@ import java.util.Map;
 
 @RestController
 public class DevTokenController {
+
 	private final RSAPrivateKey privateKey;
+
 	public DevTokenController() { this.privateKey = loadPrivateKey(); }
+
 	@GetMapping("/token/dev")
 	public Map<String, Object> token(
 		@RequestParam(defaultValue = "user-1") String sub,

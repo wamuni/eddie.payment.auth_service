@@ -1,4 +1,4 @@
-package eddie.payment.auth_service;
+package eddie.payment.authservice;
 
 
 class AuthServiceApplicationTests {
